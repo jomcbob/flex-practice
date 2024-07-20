@@ -1,9 +1,37 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 3px;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
+    padding: 10px;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.seg1 {
+    background-color: #1F2937;
+}
+
+.hero {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
 }
