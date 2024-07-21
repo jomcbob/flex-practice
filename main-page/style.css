@@ -1,3 +1,7 @@
+* {
+    text-decoration: none;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -21,6 +25,8 @@ button {
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin: 50px;
+    flex-wrap: wrap;
 }
 
 .seg1 {
@@ -34,4 +40,28 @@ button {
     margin: 0;
     padding: 0;
     line-height: 0;
+}
+
+.links {
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.text {
+    color: #E5E7E8;
+    line-height: 0;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.seg2 {
+    display: flex;
 }
