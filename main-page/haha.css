@@ -1,0 +1,10 @@
+
+
+.haha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-weight: bolder;
+    font-size: 150px;
+}
